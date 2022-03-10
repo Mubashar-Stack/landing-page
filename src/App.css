@@ -1,0 +1,75 @@
+.App {
+  /* text-align: center;
+  padding: 0 20px; */
+}
+
+.App-logo {
+  height: 30vmin;
+  pointer-events: none;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+.App-header {
+  /* background-color: #fafdff; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #717172;
+}
+.heading{
+  color: black;
+}
+.store-icons img{
+  display: inline;
+  margin-left: 10px;
+}
+.signup-form{
+  font-size: calc(1px + 2vmin);
+  cursor: pointer; 
+  text-decoration: underline;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.App-link {
+  color: #61dafb;
+}
+.iframeContainer{
+  position: relative;
+}
+.iframeContainer iframe{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+.bottom-Logo{
+  position: absolute;
+  bottom: 30px;
+  width: 60px;
+  margin-left: -30px;
+  left: 50%;
+
+}
+
+.para {
+  text-align: center;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
